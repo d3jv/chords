@@ -1,0 +1,43 @@
+"settings" : {
+    "columns" : 2
+},
+"metadata" : {
+    "keys" : [ "title", "subtitle", "artist", "album"]
+},
+"pdf" : {
+    "formats" : {
+        "title" : {
+            "title"    : [ "", "%{title}%{artist| (%{})}", "" ],
+            "subtitle" : [ "", "%{subtitle}", "" ],
+            "footer"   : [ "", "%{title}", "%{page}" ]
+        }
+    },
+    "chorus" : {
+        "indent" : 0,
+        "bar" : {
+            "offset" : 8,
+            "width"  : 1,
+            "color"  : "foreground"
+        },
+        "recall" : {
+            "tag"   : "Chorus",
+            "type"  : "comment",
+            "quote" : false
+        }
+    }
+},
+"chords" : [{
+    "name"    : "Ami",
+    "display" : "Ami",
+    "base"    : 1,
+    "frets"   : [ x, 0, 2, 2, 1, 0 ]
+}],
+"contents" : [{
+    "fields"   : [ "sorttitle", "artist" ],
+    "label"    : "Contents by Title",
+    "line"     : "%{title}%{artist| (%{})}",
+    "pageno"   : "%{page}",
+    "omit"     : false,
+    "template" : "stdtoc"
+}]
+
