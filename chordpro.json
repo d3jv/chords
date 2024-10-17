@@ -45,30 +45,26 @@
     "columnspace": 10
 },
 "notes" : {
-    "system" : "german",
-    "sharp" : [ "C", "Cis",
-                "D", "Dis",
-                "E",
-                "F", "Fis",
-                "G", "Gis",
-                "A", "Ais",
-                "H"
-              ],
-    "flat" :  [ "C",
-                "Des", "D",
-                "Es",  "E",
-                "F",
-                "Ges", "G",
-                "As",  "A",
-                "B",   "H"
-              ]
+  "system" : "european",
+  "sharp" : [
+      "C", [ "C#", "Cis", "C♯" ],
+      "D", [ "D#", "Dis", "D♯" ],
+      "E",
+      "F", [ "F#", "Fis", "F♯" ],
+      "G", [ "G#", "Gis", "G♯" ],
+      "A", [ "A#", "Ais", "A♯" ],
+      "H"
+  ],
+  "flat" : [
+                                    "C",
+      [ "Db", "Des",        "D♭" ], "D",
+      [ "Eb", "Es",  "Ees", "E♭" ], "E",
+                                    "F",
+      [ "Gb", "Ges",        "G♭" ], "G",
+      [ "Ab", "As",  "Aes", "A♭" ], "A",
+      [ "B",  "B",          "B" ],  "H"
+    ]
 },
-"chords" : [{
-    "name"    : "Ami",
-    "display" : "Ami",
-    "base"    : 1,
-    "frets"   : [ x, 0, 2, 2, 1, 0 ]
-}],
 "contents" : [{
     "fields"   : [ "sorttitle", "artist" ],
     "label"    : "Contents by Title",
