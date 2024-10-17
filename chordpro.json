@@ -5,6 +5,7 @@
     "keys" : [ "title", "subtitle", "artist", "album"]
 },
 "pdf" : {
+    "pagealign-songs" : 0,
     "formats" : {
         "title" : {
             "title"    : [ "", "%{title}%{artist| (%{})}", "" ],
