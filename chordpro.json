@@ -23,7 +23,7 @@
         "recall" : {
             "tag"   : "Chorus",
             "type"  : "comment",
-            "quote" : false
+            "quote" : true
         }
     },
     "fonts" : {
