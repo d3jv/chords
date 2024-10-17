@@ -24,7 +24,44 @@
             "type"  : "comment",
             "quote" : false
         }
-    }
+    },
+    "fonts" : {
+        "text" : {
+            "size" : 12
+        },
+        "chord" : {
+            "size" : 10
+        },
+        "comment" : {
+            "size" : 8
+        },
+        "comment_italic" : {
+            "size" : 8
+        },
+        "comment_box" : {
+            "size" : 8
+        }
+    },
+    "columnspace": 10
+},
+"notes" : {
+    "system" : "german",
+    "sharp" : [ "C", "Cis",
+                "D", "Dis",
+                "E",
+                "F", "Fis",
+                "G", "Gis",
+                "A", "Ais",
+                "H"
+              ],
+    "flat" :  [ "C",
+                "Des", "D",
+                "Es",  "E",
+                "F",
+                "Ges", "G",
+                "As",  "A",
+                "B",   "H"
+              ]
 },
 "chords" : [{
     "name"    : "Ami",
