@@ -66,6 +66,9 @@
       [ "B",  "B",          "B" ],  "H"
     ]
 },
+"chords" : [
+    { "name" : "E7", "base" : 1, "frets" : [ 0, 2, 0, 1, 0, 0 ] }
+],
 "contents" : [{
     "fields"   : [ "sorttitle", "artist" ],
     "label"    : "Contents by Title",
